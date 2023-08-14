@@ -1,0 +1,118 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html { 
+    height: 100vh;
+    width: 100vw;
+
+    background-image: linear-gradient(to top right,#7732D9,#5214D9);
+}
+
+main{
+    background-color: white;
+    width: 500px;
+    height: 550px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px;
+    
+    font-family: 'Poppins', sans-serif;
+
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.527);
+}
+
+main > h1{
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+
+div#formulario{
+    margin-top: 40px;
+    
+}
+
+div.campo > input{
+    display: block;
+    width: calc(100% - 5px);
+    height: 30px;  
+    margin-bottom: 40px;
+    
+    font-size: 1em;
+    font-weight: lighter;
+
+    border: none;
+    background: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+
+    outline: none;
+    
+}
+
+
+div.campo#usuario{
+    text-decoration: none;
+}
+
+form > input[type=submit]{
+    display: block;
+    width: 100%;
+    height: 57px;
+    
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: lighter;
+    letter-spacing: 2px;
+
+    background-image: linear-gradient(to top right,#7732D9,#5214D9);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+main > p{
+    margin: 30px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+div.botao{
+    display: flex;
+    align-items: center;
+
+    margin:20px;
+    width: 100%;
+    height: 50px;
+    background-color: brown;
+    border-radius: 5px;  
+
+    transform: translateX(-20px);
+}
+
+.botao a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: white;
+}  
+
+.botao img{
+    margin: 0px 30px 0px 20px;
+    display: flex;
+    justify-content: right;
+    height: 20px;
+}
+
+div.botao#twitter{
+    background-color: #5C82F2;
+}
+
+div.botao#facebook{
+    background-color: #153ebb;
+}
